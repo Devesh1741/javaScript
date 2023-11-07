@@ -34,3 +34,27 @@ myfunction()
 
 console.log(typeof bigNumber);
 
+
+
+//********************************** Memory ***************
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let mycollege = "Ecc"
+
+let mypg = "iim"
+
+console.log(mypg);
+console.log(mycollege);
+
+let userOne = {
+    email: "userdev@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "devesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
