@@ -43,13 +43,56 @@ const users = [
 ]
 
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIN'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIN'));
+
+
+
+
+const course = {
+    cousername: "english",
+    price: "1000",
+    courseInstructor: "dev"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+
+/* const navbar = ({company }) => {
+
+ } // this is react concept
+
+ navbar(company = "dev")
+*/
+
+
+// {
+//    " name": "dev"
+//     "coursename": "english speakin"
+//     "price": 1000
+// } // This is Json file objects method
+
+
+// [
+//     {},
+//     {},
+//     {}
+// ] // this is a method array json call
+
+
+
+
+
 
 
 
